@@ -1,0 +1,31 @@
+.cart {
+    margin: 5rem 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.cartWrapper {
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.cartCard img {
+    height: 60px;
+    width: 60px;
+}
+
+.cartCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 1rem 2rem;
+    margin: 1rem 3rem;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.productCard img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 2rem;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 1rem 2rem;
+    margin: 1rem 3rem;
+    cursor: pointer;
+}
+.productCard h4 {
+    margin-top: 2px;
+}
+
+.btn {
+    margin: 1rem 1rem;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: blue;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+}

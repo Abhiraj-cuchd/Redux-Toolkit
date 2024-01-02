@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #52d3d8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.logo {
+  padding: 1rem 1rem;
+  font-size: 23px;
+}
+
+.navLinks {
+  padding: 1rem 1rem;
+  margin: 1.2rem 1.2rem;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.actions {
+  padding: 1rem;
+}
+
+.cartCount {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
